@@ -29,8 +29,8 @@ export function setLocalNotif() {
 
                   Notifications.scheduleNotificationAsync({
                       content: {
-                          title: ' Time to study!',
-                          body: 'complete at least one quiz for the day'
+                          title: 'Quiz reminder',
+                          body: 'You have not completed any quizzes today'
                       },
                       trigger: notificationDate
                   })
